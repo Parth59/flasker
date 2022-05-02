@@ -2,8 +2,9 @@
 This file contains the unit tests for the user model
 """
 
+import sys
+sys.path.append('.')
 from web.models import User
-
 
 def test_user_model(session):
     """

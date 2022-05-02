@@ -1,6 +1,8 @@
 """
 This file contains the unit tests for the pastebin model
 """
+import sys
+sys.path.append('.')
 from web.models import Pastebin
 from datetime import datetime
 
